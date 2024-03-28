@@ -1,0 +1,369 @@
+.section1{
+    padding: 100px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    &__left{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 30px;
+        width: 60%;
+        span{
+            color: orange;
+            font-weight: bold;
+        }
+        h2{
+            font-size: 48px;
+            font-weight: bold;
+        }
+        p{
+            color: gray;
+        }
+        button{
+            background: orange;
+            padding: 15px;
+            color: white;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+        }
+    }
+    &__right{
+        width: 40%;
+        img{
+            width: 100%;
+        }
+    }
+}
+.section2{
+    padding: 100px 50px;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+    &__men{
+        background-image: url(https://preview.colorlib.com/theme/fashi/img/banner-1.jpg);
+        background-size: cover;
+        padding: 130px;
+        background-repeat: no-repeat;
+        background-position: center;
+        p{
+            padding: 20px;
+            background: white;
+            font-weight: bold;
+            font-size: 20px;
+        }
+    }
+    &__women{
+        background-image: url(https://preview.colorlib.com/theme/fashi/img/banner-2.jpg);
+        background-size: cover;
+        padding: 130px;
+        background-repeat: no-repeat;
+        background-position: center;
+        p{
+            padding: 20px;
+            background: white;
+            font-weight: bold;
+            font-size: 20px;
+        }
+    }
+    &__kid{
+        background-image: url(https://preview.colorlib.com/theme/fashi/img/banner-3.jpg);
+        background-size: cover;
+        padding: 130px;
+        background-repeat: no-repeat;
+        background-position: center;
+        p{
+            padding: 20px;
+            background: white;
+            font-weight: bold;
+            font-size: 20px;
+        }
+    }
+}
+.section3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 50px;
+    gap: 30px;
+    &__left{
+        width: 20%;
+        background-image: url(https://preview.colorlib.com/theme/fashi/img/products/women-large.jpg.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 200px;
+        height: 500px;
+        gap: 30px;
+        h2{
+            color: white;
+            font-size: 35px;
+        }
+        a{
+            font-size: 20px;
+            border-bottom: 1px solid white;
+            color: white;
+            padding-bottom: 5px;
+        }
+    }
+    &__right{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        &-top{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+            a{
+                border-bottom: 1px solid black;
+                padding-bottom: 5px;
+                color: black;
+                font-weight: bold;
+                font-size: 25px;
+            }
+            p{
+                color: gray;
+                font-weight: bold;
+                font-size: 25px;
+            }
+        }
+        &-bottom{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            text-align: center;
+            gap: 30px;
+        }
+        &-cards{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            cursor: pointer;
+            span{
+                color: orange;
+                font-weight: bold;
+            }
+            p{
+                font-size: 20px;
+                font-weight: lighter;
+            }
+            pre{
+                color: orange;
+                font-weight: bold;
+                font-size: 25px;
+            }
+        }
+    }
+}
+.section4{
+    background-image: url(https://preview.colorlib.com/theme/fashi/img/time-bg.jpg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px 30px;
+    align-items: start;
+
+    &__left{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        text-align: center;
+        margin-left: 30px;
+        margin-left: -100px;
+        h2{
+            font-weight: bold;
+            font-size: 48px;
+        }
+        p{
+            width: 50%;
+            color: gray;
+        }
+        span{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            span{
+                color: orange;
+                font-weight: bold;
+                font-size: 30px;
+            }
+        }
+        button{
+            padding: 10px;
+            background: orange;
+            border: none;
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        
+    }
+    &__div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        &-card{
+            background: white;
+            padding: 10px;
+            span{
+                color: orange;
+                font-weight: bold;
+                font-size: 30px;
+            }
+        }
+    }
+
+}
+.section6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    img{
+        width: 200px;
+        cursor: pointer;
+    }
+    img:hover{
+        opacity: 0.7;
+    }
+}
+.section7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 100px 50px;
+    h2{
+        font-size: 48px;
+        font-weight: bold;
+    }
+    &__cards{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 30px;
+        &-card{
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            gap: 20px;
+            overflow: hidden;
+            h3{
+                font-size: 27px;
+            }
+            p{
+                color: gray;
+            }
+        }
+        &-icons{
+            display: flex;
+            gap: 20px;
+            i{
+                color: orange;
+            }
+            p{
+                color: gray;
+            }
+        }
+    }
+    &__bottom{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        &-card{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            font-size: 18px;
+            i{
+                font-size: 30px;
+                color: orange;
+            }
+        }
+
+    }
+}
+.section8{
+    background: #303030;
+    padding: 30px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+footer{
+    background: #191919;
+    color: white;
+}
+.footer__start{
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+
+    &-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        
+        a{
+            color: white;
+        }
+    }
+    &-icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        i{
+            padding: 10px;
+            border-radius: 50%;
+            color: white;
+            background: orange;
+            cursor: pointer;
+        }
+    }
+    &-input{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        input{
+            padding: 10px;
+            border: none;
+        }
+        button{
+            padding: 10px;
+            border: none;
+            background: orange;
+            color: white;
+            font-weight: bold;
+
+        }
+    }
+}
+.footer__end{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding : 20px;
+    border-top: 1px solid white;
+}
